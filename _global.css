@@ -1,0 +1,22 @@
+/* Start of Global base css */
+
+html {
+	background-color:#fff;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	font-family:Open Sans, sans-serif;
+	font-size:80%;
+	
+}
+
+p {
+	margin-bottom:12px;
+}
+
+/* End of Global base css */
