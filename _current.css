@@ -1,0 +1,43 @@
+.mainnav {
+	.current {
+		background-color:$wnmidGrey;
+		border-radius:0px;
+	}
+
+	.current--seminar {
+		background-color:$mainSeminar;
+		border-radius:5px;	
+	}
+
+	.current--seminar-sub {
+		background-color:$mainBoxred;
+		border-radius:0;
+	}
+	
+	.current--analytic {
+		background-color:$mainAnalytic;
+		color:#fff;
+		border-radius:5px;	
+	}
+
+	.current--analytic-sub {
+		background-color:$mainBoxblue;
+		border-radius:0;
+	}
+
+	.current--find {
+		background-color:$mainFind;
+		border-radius:5px;	
+	}
+
+	.current--find-sub {
+		background-color:$mainFind;
+		border-radius:0;	
+	}
+
+	.current--resources {
+		background-color:$mainResources;
+		border-radius:5px;	
+	}
+
+}

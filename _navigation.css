@@ -1,0 +1,173 @@
+/* Start of minimised button menus */
+
+#cpBtn {
+	padding:3px 5px;
+	background-color:#ebedee;
+	border-radius:4px;
+	border:#fff;
+}
+#cpBtn:hover {
+	background-color:#c2d1df;
+	
+}
+
+#cpBtn > div {
+	width:20px;
+	height:4px;
+	background:$mainNav;
+	margin:3px 0px;
+	border-radius:4px;
+}	
+
+
+/* Start Horizantal Nav with Dropdown menus */
+/* ===================================================== */
+
+.mainnav {
+	max-width:300px;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+
+.mainnav ul {
+	display:block;
+	list-style:none;
+	}
+	
+.mainnav ul li {
+	position:relative;
+	background-color:$wnlightGrey;
+	width:170px;
+	margin-right:5px;
+	margin-bottom:5px;
+	border-radius:0px;
+	line-height:10px;
+	box-sizing:border-box;
+	} 
+	
+.mainnav ul li a {
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px;
+	font-size:14px;
+	line-height:14px;
+	word-spacing:4px;
+	-webkit-transition:0.3s ease-out;
+	-moz-transition:0.3s ease-out;
+	-ms-transition:0.3s ease-out;
+	-o-transition:0.3s ease-out;
+	transition:0.3s ease-out;
+	}
+
+.mainnav ul li dfn {
+	color:$wntextGrey;
+	}
+	
+.mainnav ul li:hover > a {
+	color:$wntextGrey;
+	}
+
+.mainnav ul li.active > a {
+	color:#2980b9;
+	}
+	
+/* Submenu */
+.mainnav ul li > ul {
+	position:absolute;
+	width:170px;
+	z-index:-9999;
+	opacity:0;
+	-webkit-transition:0.3s ease-out;
+	-moz-transition:0.3s ease-out;
+	-ms-transition:0.3s ease-out;
+	-o-transition:0.3s ease-out;
+	transition:0.3s ease-out;
+	}
+	
+.mainnav ul li:hover > ul {
+	display:block;
+	z-index:100;
+	opacity:1;
+	-webkit-transition:0.3s ease-out;
+	-moz-transition:0.3s ease-out;
+	-ms-transition:0.3s ease-out;
+	-o-transition:0.3s ease-out;
+	transition:0.3s ease-out;
+	}
+	
+
+.mainnav ul li > ul li {
+	padding:0px;
+	width:100%;
+	border-radius:0px;
+	border-top:2px solid #fff;
+	background-color:$wnsubGrey;
+	margin-bottom:0px;
+	box-sizing:border-box;
+	}
+
+.mainnav ul li > ul li dfn {
+	color:#fff;
+}
+
+.mainnav ul li > ul li a {
+	display:block;
+	font-size:14px;
+	}
+
+.mainnav ul li > ul li:hover > a {
+	display:block;
+	color:#fff;
+	background:$wnlightGrey;
+	}
+	
+.mainnav ul li > ul li:active > a {
+	color:#fff;
+	background:$wntextGrey;
+	}
+
+/* Sub Submenu */
+	
+.mainnav ul li > ul li > ul {
+	border-left:2px solid #fff;
+	top:-2px;
+	left:100%;
+	width:100%;
+	}
+
+.mainnav ul li > ul li > ul a {
+	color:#fff;
+	background-color:#39C;
+	}	
+
+
+/* Reveal and Hide Styles */
+
+.menu {
+	text-decoration:none;
+	padding-top:10px;
+	color:#083b5e;
+}
+.menu:hover {
+	color:#e41207;
+}
+
+.toggle-btn {
+	display:none;
+}
+
+@media screen and (max-width: 400px) {
+	.toggle-btn-visible {
+	display:block;
+	}
+	.toggle-target-hidden {
+	display:none;
+	}
+	.toggle-target-expanded {
+	display:block;
+	}
+	
+}
+
+/* End Reveal and Hide Styles */

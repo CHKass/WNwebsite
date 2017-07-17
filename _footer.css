@@ -1,0 +1,14 @@
+/* Start of Footer */
+/* ===================================================== */
+
+footer {
+	 color:$wntextGrey;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 margin-top:20px;
+}
+	
+footer p {
+	 font-size:80%;
+	 margin-bottom:5px;
+}

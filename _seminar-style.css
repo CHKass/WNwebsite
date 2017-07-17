@@ -1,0 +1,56 @@
+.term {
+	font-weight:normal;
+	font-size:150%;
+	color:#fff;
+	border-bottom:2px solid #fff;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+	
+.tit {
+	margin-top:0px;
+	font-weight:bold;
+	color:#970635;
+	border-top:2px solid #970635;
+	padding-top:6px;
+	margin-bottom:0;
+}
+
+.aut {
+	font-weight:bold;
+	font-style:italic;
+	color:#000;
+	margin-bottom:2px;
+}
+
+.det {
+	font-weight:normal;
+	color:#000;
+	margin-bottom:3px;
+}
+
+.bib {
+	font-size:90%;
+	font-weight:normal;
+	color:#000;
+	margin-bottom:3px;
+}
+
+.course-spacer {
+	padding:10px;
+}
+
+.col2 p dfn {
+	font-weight:bold;
+	color:#970635;
+	padding-right:8px;
+}
+
+.col2 p {
+	line-height:1.2;
+}
+
+.indent {
+	padding-left:24px;
+}
+

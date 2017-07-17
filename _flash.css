@@ -1,0 +1,31 @@
+.flash-text {
+	margin-top:60px;
+}
+
+.flash-text a {
+	color:$mainSeminar;
+}
+
+.flash-text h2 {
+	font-weight:500;
+	font-size:20px;
+	color:$mainBoxblue;
+	padding-bottom:10px;
+}
+
+.flash-text p {
+	font-weight:300;
+	font-size:20px;
+	color:$mainBoxblue;
+	padding-top:10px;
+}
+
+@media screen and (max-width: 400px) {
+	.flash-text {
+		margin-top:30px;
+	}
+
+	.flash-text h2 p {
+		padding-top:5px;
+	}
+}
