@@ -14,7 +14,7 @@
 #cpBtn > div {
 	width:20px;
 	height:4px;
-	background:$mainNav;
+	background:$wnlinkBlue;
 	margin:3px 0px;
 	border-radius:4px;
 }	
