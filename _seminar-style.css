@@ -18,26 +18,36 @@
 
 .aut {
 	font-weight:bold;
-	font-style:italic;
 	color:#000;
-	margin-bottom:2px;
+	margin-bottom:6px;
 }
 
 .det {
 	font-weight:normal;
 	color:#000;
-	margin-bottom:3px;
+	line-height:1.2;
+	margin-bottom:6px;
+}
+
+.det a {
+	text-decoration:none;
+	color:$wnlinkBlue; 
 }
 
 .bib {
-	font-size:90%;
+	font-size:80%;
 	font-weight:normal;
 	color:#000;
+	line-height:1.2;
 	margin-bottom:3px;
 }
 
 .course-spacer {
 	padding:10px;
+}
+
+.white-link {
+	color:#fff;
 }
 
 .col2 p dfn {

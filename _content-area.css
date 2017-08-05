@@ -72,6 +72,12 @@
 	margin-bottom:2rem;
 }
 
+.illustration {
+	width:100%;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
 @media screen and (max-width: 480px) {
 	.page-content {
 		width:100%;
@@ -505,7 +511,8 @@
 	.col-xs-1 {width:8.332%;}
 
 	.col {
-	padding-bottom:0px;
+	padding-bottom:10px;
+	padding-right:5px;
 	box-sizing:border-box;
 	}
 }

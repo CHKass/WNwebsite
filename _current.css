@@ -4,6 +4,11 @@
 		border-radius:0px;
 	}
 
+	.current--sub {
+		background-color:$wnlinkBlue;
+		border-radius:0px;
+	}
+
 	.current--seminar {
 		background-color:$mainSeminar;
 		border-radius:5px;	
