@@ -1,0 +1,137 @@
+/* Start Form styling */
+/* ============================== */
+
+form {
+	background-color:$wnlightGrey;
+	width:100%;
+	padding:20px 20px;
+	margin-bottom:10px;
+	border-radius:4px;
+	box-sizing:border-box;
+	}
+
+.section {
+	color:#721a71;
+	text-decoration:none;
+	}
+
+.hidden-label {
+	position:absolute;
+	height:0;
+	width:0;
+	overflow:hidden;
+	visibility:hidden;
+	}
+		
+input,
+select {
+	font-family:Lato, sans-serif;
+	font-size:100%;
+	}
+	
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+select {
+	width:100%;
+	display:block;
+	padding:0 5px;
+	margin-left:0px;
+	margin-right:10px;
+	height:30px;
+	box-sizing:border-box;
+	}
+
+fieldset {
+	width:100%;
+	display:block;
+	padding:0 10px;
+	margin-left:0px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	height:45px;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:6px;
+	box-sizing:border-box;
+	}
+		
+textarea[id="yourMessage"] {
+	width:100%;
+	display:block;
+	box-sizing:border-box;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:10px;
+	margin-bottom:10px;
+	height:30px;
+	}
+
+input[type="submit"] {
+	background-color:$wnlinkBlue;
+	width:170px;
+	display:block;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:15px;
+	margin-bottom:10px;
+	box-sizing:border-box;
+	padding:0 10px;
+	height:30px;
+	color:#fff;
+	border:1px solid #ccc;
+	border-radius:6px;
+}
+
+.form-instruction p {
+	color:#000;
+	margin-bottom:4px;
+	margin-left:0px;
+	margin-right:0px;
+	}
+
+.form-instruction h3 {
+	margin-left:8px;
+	}
+
+legend {
+	
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:2px;
+	}
+	
+@media screen and (max-width: 480px) {
+	.col1 {
+		float:none;
+		width:auto;
+	}
+	
+	input[type="email"],
+	input[type="password"],
+	input[type="text"],
+	input[type="number"],
+	input[type="tel"],
+	textarea[id="yourMessage"],
+	select {
+		padding:0 5px;
+	}
+	
+	.form-instruction p {
+		margin-left:5px;
+		margin-right:4px;
+	}
+	
+	}
+/* End Form styling */	
