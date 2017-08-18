@@ -5,3 +5,17 @@
 	margin-right:10px;
 	margin-top:10px;
 }
+
+.alpha-title {
+	float:left;
+	height: auto;
+  	max-width: inherit;
+	margin-right:20px;
+	margin-top:10px;
+}
+
+@media screen and (max-width: 500px) {
+	.alpha-title, .alpha-target {
+		margin-right:5px;
+	}
+}

@@ -18,14 +18,19 @@
 
 .aut {
 	font-weight:bold;
-	color:#000;
+	color:$wntextGrey;
 	margin-bottom:6px;
 }
 
 .date {
 	font-weight:bold;
-	color:#000;
+	color:$wntextGrey;
 	margin-bottom:3px;
+}
+
+.date a {
+	text-decoration:none;
+	color:$wnlinkBlue; 
 }
 
 .det {
@@ -46,6 +51,19 @@
 	color:#000;
 	line-height:1.2;
 	margin-bottom:3px;
+}
+
+.theme-title {
+	font-size:80%;
+	font-weight:bold;
+	color:#000;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+
+.theme-title a {
+	text-decoration:none;
+	color:$wnlinkBlue; 
 }
 
 .course-spacer {
